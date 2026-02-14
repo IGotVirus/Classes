@@ -12,7 +12,7 @@
     public void Balance()
     {
         Console.WriteLine();
-        Console.WriteLine($"Account {_accountName} balance is {_accountBalance}");
+        Console.WriteLine($"Account {_accountName} balance is {_accountBalance.ToString("F2")}");
     }
     public double Deposit(double depo)
     {
